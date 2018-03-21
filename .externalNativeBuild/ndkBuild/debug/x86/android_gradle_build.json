@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "D:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dD:/AndroidWorkspace/SerialCatch/serialport/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "SerialPort-debug-x86": {
+      "buildCommand": "D:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dD:/AndroidWorkspace/SerialCatch/serialport/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\build\\intermediates\\ndkBuild\\debug\\lib D:/AndroidWorkspace/SerialCatch/serialport/build/intermediates/ndkBuild/debug/obj/local/x86/libSerialPort.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "SerialPort",
+      "files": [
+        {
+          "src": "D:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\SerialPort.cpp",
+          "flags": "\"-gcc-toolchain\" \"D:/AndroidSDK/ndk-bundle/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O0\" \"-UNDEBUG\" \"-fno-limit-debug-info\" \"-ID:/AndroidSDK/ndk-bundle/build//../sources/cxx-stl/system/include\" \"-ID:/AndroidWorkspace/SerialCatch/serialport/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-isystem\" \"D:/AndroidSDK/ndk-bundle/build//../platforms/android-15/arch-x86/usr/include\""
+        }
+      ],
+      "output": "D:\\AndroidWorkspace\\SerialCatch\\serialport\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libSerialPort.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cppCompilerExecutable": "D:\\AndroidSDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

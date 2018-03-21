@@ -1,0 +1,5 @@
+# ninja log v5
+1	146	0	CMakeFiles/SerialPortLib.dir/src/main/cpp/SerialPortLib.cpp.o	8575b09fa455afc1
+147	299	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libSerialPortLib.so	dad754f74ed6c381
+20	204	0	CMakeFiles/SerialPortLib.dir/src/main/cpp/SerialPortLib.cpp.o	8575b09fa455afc1
+204	527	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libSerialPortLib.so	dad754f74ed6c381

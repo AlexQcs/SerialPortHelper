@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "D:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\Android.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dD:/AndroidWorkspace/SerialCatch/serialport/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "SerialPort-release-mips": {
+      "buildCommand": "D:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\Android.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dD:/AndroidWorkspace/SerialCatch/serialport/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\build\\intermediates\\ndkBuild\\release\\lib D:/AndroidWorkspace/SerialCatch/serialport/build/intermediates/ndkBuild/release/obj/local/mips/libSerialPort.so",
+      "toolchain": "toolchain-mips",
+      "abi": "mips",
+      "artifactName": "SerialPort",
+      "files": [
+        {
+          "src": "D:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\SerialPort.cpp",
+          "flags": "\"-gcc-toolchain\" \"D:/AndroidSDK/ndk-bundle/build//../toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"mipsel-none-linux-android\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-mips32\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-ID:/AndroidSDK/ndk-bundle/build//../sources/cxx-stl/system/include\" \"-ID:/AndroidWorkspace/SerialCatch/serialport/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"D:/AndroidSDK/ndk-bundle/build//../platforms/android-15/arch-mips/usr/include\""
+        }
+      ],
+      "output": "D:\\AndroidWorkspace\\SerialCatch\\serialport\\build\\intermediates\\ndkBuild\\release\\obj\\local\\mips\\libSerialPort.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-mips": {
+      "cppCompilerExecutable": "D:\\AndroidSDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

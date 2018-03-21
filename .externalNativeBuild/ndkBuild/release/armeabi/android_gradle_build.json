@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "D:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "D:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dD:/AndroidWorkspace/SerialCatch/serialport/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "SerialPort-release-armeabi": {
+      "buildCommand": "D:\\AndroidSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003dD:/AndroidWorkspace/SerialCatch/serialport/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidWorkspace\\SerialCatch\\serialport\\build\\intermediates\\ndkBuild\\release\\lib D:/AndroidWorkspace/SerialCatch/serialport/build/intermediates/ndkBuild/release/obj/local/armeabi/libSerialPort.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "SerialPort",
+      "files": [
+        {
+          "src": "D:\\AndroidWorkspace\\SerialCatch\\serialport\\src\\main\\jni\\SerialPort.cpp",
+          "flags": "\"-gcc-toolchain\" \"D:/AndroidSDK/ndk-bundle/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv5te-none-linux-androideabi\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-ID:/AndroidSDK/ndk-bundle/build//../sources/cxx-stl/system/include\" \"-ID:/AndroidWorkspace/SerialCatch/serialport/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"D:/AndroidSDK/ndk-bundle/build//../platforms/android-15/arch-arm/usr/include\""
+        }
+      ],
+      "output": "D:\\AndroidWorkspace\\SerialCatch\\serialport\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi\\libSerialPort.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi": {
+      "cppCompilerExecutable": "D:\\AndroidSDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,3 @@
+D:/AndroidWorkspace/SerialCatch/serialport/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/SerialPortLib.dir
+D:/AndroidWorkspace/SerialCatch/serialport/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/AndroidWorkspace/SerialCatch/serialport/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

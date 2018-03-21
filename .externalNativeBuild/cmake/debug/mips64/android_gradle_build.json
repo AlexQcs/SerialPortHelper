@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/AndroidWorkspace/SerialCatch/serialport/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\AndroidSDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\AndroidWorkspace\\SerialCatch\\serialport\\.externalNativeBuild\\cmake\\debug\\mips64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"SerialPortLib-Debug-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "SerialPortLib",
+			"buildCommand" : "D:\\AndroidSDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\AndroidWorkspace\\SerialCatch\\serialport\\.externalNativeBuild\\cmake\\debug\\mips64 --target SerialPortLib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mips64el-none-linux-android -gcc-toolchain D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/platforms/android-21/arch-mips64  -DSerialPortLib_EXPORTS -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/AndroidWorkspace/SerialCatch/serialport/src/main/cpp/SerialPortLib.cpp",
+					"workingDirectory" : "D:/AndroidWorkspace/SerialCatch/serialport/.externalNativeBuild/cmake/debug/mips64"
+				}
+			],
+			"output" : "D:/AndroidWorkspace/SerialCatch/serialport/build/intermediates/cmake/debug/obj/mips64/libSerialPortLib.so",
+			"toolchain" : "3745389449"
+		}
+	},
+	"toolchains" : 
+	{
+		"3745389449" : 
+		{
+			"cCompilerExecutable" : "D:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

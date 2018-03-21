@@ -1,0 +1,5 @@
+# ninja log v5
+1	183	0	CMakeFiles/SerialPortLib.dir/src/main/cpp/SerialPortLib.cpp.o	5853391790a42af8
+184	284	0	../../../../build/intermediates/cmake/debug/obj/mips64/libSerialPortLib.so	33e62a6293c6c1b
+15	472	0	CMakeFiles/SerialPortLib.dir/src/main/cpp/SerialPortLib.cpp.o	5853391790a42af8
+473	596	0	../../../../build/intermediates/cmake/debug/obj/mips64/libSerialPortLib.so	33e62a6293c6c1b

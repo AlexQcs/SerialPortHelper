@@ -1,0 +1,5 @@
+# ninja log v5
+1	239	0	CMakeFiles/SerialPortLib.dir/src/main/cpp/SerialPortLib.cpp.o	906e769a00cfb449
+239	434	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libSerialPortLib.so	9e15873fbe6df21a
+2	294	0	CMakeFiles/SerialPortLib.dir/src/main/cpp/SerialPortLib.cpp.o	906e769a00cfb449
+294	479	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libSerialPortLib.so	9e15873fbe6df21a
